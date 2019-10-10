@@ -7,6 +7,10 @@ HTTP service for fuzzy search /autocomplete of English words.
 ## Installation
 
 ```sh
+git clone https://github.com/souvikmaji/autocomplete.git
+
+cd autocomplete
+
 make init
 ```
 
