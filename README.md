@@ -10,7 +10,13 @@ make init
 
 ## Run Instruction
 
+```sh
+make run
+```
+
 ### HTML View
+
+Visit: <http://127.0.0.1:8000/>
 
 ### API Usage
 
@@ -51,3 +57,5 @@ The response should be a JSON array containing upto 25 results, ranked by some c
 - unit tests
 - static analyzer
 - Hosting (Heroku).
+
+> Developed and tested in python3 environment.
