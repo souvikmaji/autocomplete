@@ -26,14 +26,19 @@ Visit: <http://127.0.0.1:8000/>
 
 ### API Usage
 
+```txt
 GET /search?word=input
+```
 
 Where input is the (partial) word that the user has typed so far. 
 
 For example, if the user is lookingup procrastination, the service might receive this sequence of requests:
+
+```txt
 GET /search?word=pro
 GET /search?word=procr
 GET /search?word=procra
+```
 
 and so on.
 
