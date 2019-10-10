@@ -33,11 +33,11 @@ The response should be a JSON array containing upto 25 results, ranked by some c
 
 2. The ranking of results should satisfy the following:
 
-a. We assume that the user is typing the beginning of the word. Thus, matches at thestart of a word should be ranked higher. For example, for the input pract, the resultpractical should be ranked higher than impractical.
+   a. We assume that the user is typing the beginning of the word. Thus, matches at thestart of a word should be ranked higher. For example, for the input pract, the resultpractical should be ranked higher than impractical.
 
-b. Common words (those with a higher usage count) should rank higher than rarewords.
+   b. Common words (those with a higher usage count) should rank higher than rarewords.
 
-c. Short words should rank higher than long words. For example, given the inputenviron, the result environment should rank higher than environmentalism.i.As a corollary to the above, an ​exact match​ should always be ranked as thefirst result.
+   c. Short words should rank higher than long words. For example, given the inputenviron, the result environment should rank higher than environmentalism.i.As a corollary to the above, an ​exact match​ should always be ranked as thefirst result.
 
 3. The search algorithm you develop should ideally incorporate some form of a weightedaverage of all qualifying parameters. The perfect weights, in production systems, arehowever derived through the use of ML algorithms.
 
