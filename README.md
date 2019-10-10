@@ -2,6 +2,8 @@
 
 HTTP service for fuzzy search /autocomplete of English words.
 
+> Developed and tested in python3 environment.
+
 ## Installation
 
 ```sh
@@ -57,5 +59,3 @@ The response should be a JSON array containing upto 25 results, ranked by some c
 - unit tests
 - static analyzer
 - Hosting (Heroku).
-
-> Developed and tested in python3 environment.
